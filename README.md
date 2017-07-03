@@ -1,6 +1,6 @@
 # README #
 
-Boilerplate builded to help in the begin of a simple project. 
+Boilerplate builded to help us in the begin of a simple project. 
 
 
 ### How run it? ###
