@@ -60,6 +60,10 @@ module.exports = {
     }),
     new ExtractTextPlugin({
       filename: 'css/style.css'
-    })  
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    })
   ]
 };
