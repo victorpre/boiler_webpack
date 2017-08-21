@@ -1,12 +1,15 @@
 @import '~normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import 'components/*scss';
+@import 'settings/*scss';
 @import 'settings/mixins/*scss';
 
 body {
   font-family: 'Roboto', sans-serif;
-  > * {
-    box-sizing: border-box;
-  }
+}
+
+* {
+  box-sizing: border-box;
 }
 
 // Exmplo de estrutura
