@@ -1,5 +1,7 @@
 @import '~normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import 'components/*scss';
+@import 'settings/*scss';
 @import 'settings/mixins/*scss';
 
 body {
