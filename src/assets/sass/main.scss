@@ -4,9 +4,10 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  > * {
-    box-sizing: border-box;
-  }
+}
+
+* {
+  box-sizing: border-box;
 }
 
 // Exmplo de estrutura
