@@ -21,6 +21,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, './src'),  // New
+    port: 3000,
   },
   module: {
     rules: [
@@ -29,7 +30,7 @@ module.exports = {
         exclude: [/node_modules/],
         use: [{
           loader: 'babel-loader',
-          options: { presets: ['es2015'] },
+          options: { presets: ['es2015','react'] },
         }],
       },
       {
