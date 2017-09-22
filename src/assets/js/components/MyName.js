@@ -1,9 +1,15 @@
 import React from 'react';
 
-const MyName = (props) => {
-  return (
-    <h1>{props.name}</h1>
-  )
+class MyName extends React.Component {
+  render() {
+    return (
+      <div className="personal-infos">
+        <h2>{this.props.name}</h2>
+        <strong>{this.props.relationship}</strong>: 
+        <a href="#">{this.props.email}</a>
+      </div>
+    )
+  }
 }
 
 export default MyName;
