@@ -1,0 +1,64 @@
+.form-row {
+  margin-bottom: 20px;
+
+  label {
+    color: $secondary-color;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 11px;
+    width: 100%
+  }
+
+  .input-txt {
+    border: 1px solid $light-gray;
+    color: $medium-gray;
+    display: block;
+    height: 40px;
+    padding: 0 8px;
+    width: 100%;
+
+    &.textarea-txt {
+      height: 90px;
+      resize: none;
+      padding: 5px 8px;
+    }
+
+    &.selection-itens {
+      background-color: $white;
+      padding: 0 12px;
+
+      &[type=text]:focus {
+        outline: none;
+        border: 1px solid #3da8cb;
+      }
+
+      @include media("tablet") {
+        width: 473px;
+      }
+      
+      option {
+        color: $medium-gray;
+
+        &[type=text]:focus {
+          outline: none;
+          border: 1px solid #3da8cb;
+        }
+        &[type=text]::placeholder {
+          color: $light-gray;
+        }
+      }
+    }
+  }
+
+  &.is-lg {
+    width: 729px;
+  }
+  
+  &.is-md {
+    width: 473px;
+  }
+
+  &.is-sm {
+    width: 189px;
+  }
+}
