@@ -29,6 +29,8 @@ module.exports = {
         test: /\.js$/,
         exclude: [/node_modules/],
         use: [{
+          loader: 'eslint-loader',
+        },{
           loader: 'babel-loader',
           options: { presets: ['env','react'] },
         }],
@@ -40,7 +42,7 @@ module.exports = {
           use: [
             'css-loader', 
             'sass-loader',
-            'import-glob-loader'
+            'import-glob-loader',
           ],
         })
       },

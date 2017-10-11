@@ -1,0 +1,17 @@
+{
+  parser: "babel-eslint",
+  "rules": {
+    "no-empty": "error",
+    "no-dupe-keys": "error",
+    "no-extra-semi": "error",
+    "no-func-assign": "error",
+    "no-sparse-arrays": "error",
+    "no-unexpected-multiline": "error",
+    "block-scoped-var": "error",
+    "class-methods-use-this": "error",
+    "block-spacing": ["error", "always"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "func-call-spacing": ["error", "never"],
+    // "id-length": ["error", {"min": 2}],
+  }
+}
