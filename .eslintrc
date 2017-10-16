@@ -8,7 +8,6 @@
     "no-sparse-arrays": "error",
     "no-unexpected-multiline": "error",
     "block-scoped-var": "error",
-    "class-methods-use-this": "error",
     "block-spacing": ["error", "always"],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "func-call-spacing": ["error", "never"],
